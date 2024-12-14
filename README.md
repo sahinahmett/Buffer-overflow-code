@@ -25,5 +25,7 @@ Fuzzing: Hedef uygulamanın hataya yol açabilecek zafiyet noktaları belirlenir
 Ofset Hesaplama: Taşma işlemi sırasında EIP kaydının üzerine yazılan adresin yeri hesaplanır.
 Kötü Karakterlerin Çıkarılması: Exploit sırasında sorun çıkarabilecek karakterler belirlenir ve payload'dan çıkarılır.
 Exploit Oluşturma: Tüm bilgiler birleştirilerek nihai bir istismar kodu geliştirilir.
+
+
 Sorumluluk Reddi
 Bu proje yalnızca eğitim ve araştırma amaçlıdır. Yetkisiz sistemlere izinsiz erişim etik dışıdır ve yasadışıdır. Araçları yalnızca yasal izin alınmış sistemlerde kullanın. Bu araçların kötüye kullanımından proje geliştiricileri sorumlu tutulamaz.

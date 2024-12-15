@@ -25,10 +25,10 @@ Eğitim: Siber güvenlik konularında pratik yapmak isteyenler için bir öğren
 <br>Etik Testler: İzinli test senaryolarında zafiyet tespiti ve düzeltme süreçlerine yardımcı olur.<br>
 
 **Geliştirme Süreci:
-<span style="color:red">Fuzzing: Hedef uygulamanın hataya yol açabilecek zafiyet noktaları belirlenir.
-Ofset Hesaplama: Taşma işlemi sırasında EIP kaydının üzerine yazılan adresin yeri hesaplanır.<br>
-Kötü Karakterlerin Çıkarılması: Exploit sırasında sorun çıkarabilecek karakterler belirlenir ve payload'dan çıkarılır.
-Exploit Oluşturma: Tüm bilgiler birleştirilerek nihai bir istismar kodu geliştirilir.</span>**
+<br>Fuzzing: Hedef uygulamanın hataya yol açabilecek zafiyet noktaları belirlenir.<br>
+<br>Ofset Hesaplama: Taşma işlemi sırasında EIP kaydının üzerine yazılan adresin yeri hesaplanır.<br>
+<br>Kötü Karakterlerin Çıkarılması: Exploit sırasında sorun çıkarabilecek karakterler belirlenir ve payload'dan çıkarılır.<br>
+<br>Exploit Oluşturma: Tüm bilgiler birleştirilerek nihai bir istismar kodu geliştirilir.<br>**
 
 
 Sorumluluk Reddi

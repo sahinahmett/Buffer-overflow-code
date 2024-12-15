@@ -5,7 +5,7 @@ Proje İçeriği
 Proje, aşağıdaki Python betiklerini içerir:
 
 fuzzing.py: Bir uygulama veya serviste zafiyet tespiti için fuzzing gerçekleştirme.
-badchars.py: Payload içinde sorun oluşturabilecek kötü karakterleri belirleme.
+<br> badchars.py: Payload içinde sorun oluşturabilecek kötü karakterleri belirleme. <br>
 offset.py: Taşma noktası ve EIP kontrolü için gerekli ofseti bulma.
 exploit.py: Nihai exploit kodunu oluşturarak hedef uygulamayı veya servisi istismar etme.
 Amacımız

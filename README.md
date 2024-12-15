@@ -15,18 +15,20 @@ Bu projenin amacı, güvenlik araştırmacıları ve siber güvenlik öğrencile
 
 Yetenekler
 Fuzzing: Çeşitli girdilerle bir uygulamanın dayanıklılığını test eder.
-Kötü Karakter Tespiti: Güvenli bir payload geliştirme sürecine katkı sağlar.
-Ofset Bulma: EIP kaydını doğru şekilde manipüle edebilmek için ofset değerlerini hesaplar.
-Exploit Geliştirme: Tespit edilen zafiyet üzerinden sistem kontrolünü ele geçirme adımlarını içerir.
+<br>Kötü Karakter Tespiti: Güvenli bir payload geliştirme sürecine katkı sağlar.<br>
+<br>Ofset Bulma: EIP kaydını doğru şekilde manipüle edebilmek için ofset değerlerini hesaplar.<br>
+<br>Exploit Geliştirme: Tespit edilen zafiyet üzerinden sistem kontrolünü ele geçirme adımlarını içerir.<br>
+
 Projenin Kullanım Alanları
 Eğitim: Siber güvenlik konularında pratik yapmak isteyenler için bir öğrenme aracı.
-Araştırma: Buffer Overflow ile ilgili daha derin analizler yapmak isteyen güvenlik araştırmacılarına kaynak sağlar.
-Etik Testler: İzinli test senaryolarında zafiyet tespiti ve düzeltme süreçlerine yardımcı olur.
-Geliştirme Süreci
-Fuzzing: Hedef uygulamanın hataya yol açabilecek zafiyet noktaları belirlenir.
-Ofset Hesaplama: Taşma işlemi sırasında EIP kaydının üzerine yazılan adresin yeri hesaplanır.
+<br>Araştırma: Buffer Overflow ile ilgili daha derin analizler yapmak isteyen güvenlik araştırmacılarına kaynak sağlar.<br>
+<br>Etik Testler: İzinli test senaryolarında zafiyet tespiti ve düzeltme süreçlerine yardımcı olur.<br>
+
+**Geliştirme Süreci:
+<span style="color:red">Fuzzing: Hedef uygulamanın hataya yol açabilecek zafiyet noktaları belirlenir.
+Ofset Hesaplama: Taşma işlemi sırasında EIP kaydının üzerine yazılan adresin yeri hesaplanır.<br>
 Kötü Karakterlerin Çıkarılması: Exploit sırasında sorun çıkarabilecek karakterler belirlenir ve payload'dan çıkarılır.
-Exploit Oluşturma: Tüm bilgiler birleştirilerek nihai bir istismar kodu geliştirilir.
+Exploit Oluşturma: Tüm bilgiler birleştirilerek nihai bir istismar kodu geliştirilir.</span>**
 
 
 Sorumluluk Reddi

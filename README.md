@@ -1,14 +1,16 @@
 Buffer Overflow Exploitation Toolkit
 Bu proje, Buffer Overflow (Taşma) zafiyetlerini analiz etmek ve istismar etmek için bir araç seti sunar. Araçlar, adım adım bir süreçle zafiyet tespiti yapmayı ve etkili exploit geliştirmeyi kolaylaştırmak için tasarlanmıştır.
 
-Proje İçeriği
-Proje, aşağıdaki Python betiklerini içerir:
+Proje İçeriği:
+<br> Proje, aşağıdaki Python betiklerini içerir: <br>
 
-fuzzing.py: Bir uygulama veya serviste zafiyet tespiti için fuzzing gerçekleştirme.
-<br> badchars.py: Payload içinde sorun oluşturabilecek kötü karakterleri belirleme. <br>
-offset.py: Taşma noktası ve EIP kontrolü için gerekli ofseti bulma.
-<br> exploit.py: Nihai exploit kodunu oluşturarak hedef uygulamayı veya servisi istismar etme. <br>
+**fuzzing.py: Bir uygulama veya serviste zafiyet tespiti için fuzzing gerçekleştirme.**
+**<br> badchars.py: Payload içinde sorun oluşturabilecek kötü karakterleri belirleme. <br>**
+**offset.py: Taşma noktası ve EIP kontrolü için gerekli ofseti bulma.**
+**<br> exploit.py: Nihai exploit kodunu oluşturarak hedef uygulamayı veya servisi istismar etme. <br>**
+
 Amacımız
+
 Bu projenin amacı, güvenlik araştırmacıları ve siber güvenlik öğrencilerine eğitim materyali sunmaktır. Proje, Buffer Overflow zafiyetlerinin tespiti ve exploit geliştirme sürecini öğrenmek isteyenler için kılavuz niteliği taşır.
 
 Yetenekler

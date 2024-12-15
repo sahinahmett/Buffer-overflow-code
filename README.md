@@ -34,5 +34,6 @@ Eğitim: Siber güvenlik konularında pratik yapmak isteyenler için bir öğren
 Sorumluluk Reddi
 Bu proje yalnızca eğitim ve araştırma amaçlıdır. Yetkisiz sistemlere izinsiz erişim etik dışıdır ve yasadışıdır. Araçları yalnızca yasal izin alınmış sistemlerde kullanın. Bu araçların kötüye kullanımından proje geliştiricileri sorumlu tutulamaz.
 
-<span style="color:red">Bu kırmızı renkte bir yazıdır.</span>
+<span style="font-size:24px">Bu büyük bir yazıdır.</span>
+
 

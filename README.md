@@ -30,6 +30,8 @@ Eğitim: Siber güvenlik konularında pratik yapmak isteyenler için bir öğren
 <br>Kötü Karakterlerin Çıkarılması: Exploit sırasında sorun çıkarabilecek karakterler belirlenir ve payload'dan çıkarılır.<br>
 <br>Exploit Oluşturma: Tüm bilgiler birleştirilerek nihai bir istismar kodu geliştirilir.<br>**
 
+---
+![GÖRSEL](https://github.com/user-attachments/assets/9ef50df9-4aa0-45d0-85dc-ee5e54ca69f5)
 
 
 

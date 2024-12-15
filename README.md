@@ -7,7 +7,7 @@ Proje, aşağıdaki Python betiklerini içerir:
 fuzzing.py: Bir uygulama veya serviste zafiyet tespiti için fuzzing gerçekleştirme.
 <br> badchars.py: Payload içinde sorun oluşturabilecek kötü karakterleri belirleme. <br>
 offset.py: Taşma noktası ve EIP kontrolü için gerekli ofseti bulma.
-exploit.py: Nihai exploit kodunu oluşturarak hedef uygulamayı veya servisi istismar etme.
+<br> exploit.py: Nihai exploit kodunu oluşturarak hedef uygulamayı veya servisi istismar etme. <br>
 Amacımız
 Bu projenin amacı, güvenlik araştırmacıları ve siber güvenlik öğrencilerine eğitim materyali sunmaktır. Proje, Buffer Overflow zafiyetlerinin tespiti ve exploit geliştirme sürecini öğrenmek isteyenler için kılavuz niteliği taşır.
 

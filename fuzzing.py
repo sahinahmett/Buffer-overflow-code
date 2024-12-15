@@ -39,7 +39,7 @@ while True:
         print(f"Fuzzing işlemi {len(string) - len(prefix)} baytta çöktü.")
         sys.exit(0)
     
-# String uzunluğunu artır
-payload_boyutu += 100  # Bayt boyutunu artır
-string = prefix + "A" * payload_boyutu  # Yeni string oluştur
-time.sleep(1)  # Bir sonraki denemeden önce 1 saniye bekle
+    # String uzunluğunu artır
+    payload_boyutu += 100  # Bayt boyutunu artır
+    string = prefix + "A" * payload_boyutu  # Yeni string oluştur
+    time.sleep(1)  # Bir sonraki denemeden önce 1 saniye bekle
